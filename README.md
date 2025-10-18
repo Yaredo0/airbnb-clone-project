@@ -304,6 +304,20 @@ This section outlines the key security measures implemented to protect the backe
 - **Compliance and Trust**  
   Implementing robust security practices helps meet legal requirements and builds confidence among users and stakeholders.
 
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code. They help ensure that new changes are integrated smoothly and deployed reliably, reducing manual effort and minimizing the risk of errors.
+
+Implementing a CI/CD pipeline improves development efficiency by catching bugs early, enforcing code quality standards, and enabling faster delivery of new features. It also supports consistent deployment practices across environments.
+
+Common tools used in this project may include:
+- **GitHub Actions**: Automates workflows for testing and deployment directly from the GitHub repository.
+- **Docker**: Provides containerization for consistent environments across development, testing, and production.
+- **Docker Compose**: Manages multi-container applications and simplifies local development and testing.
+- **Heroku / AWS / Vercel**: Platforms for automated deployment and hosting of the application.
+
+By integrating CI/CD, the project benefits from streamlined collaboration, faster feedback loops, and greater confidence in production releases.
+
 
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
