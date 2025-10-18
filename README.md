@@ -25,3 +25,4 @@ The project covers the entire development process — from frontend design and b
 ---
 
 *Stay tuned for updates as the project evolves!*
+Edited locally and committed by Yared Aysheshim
