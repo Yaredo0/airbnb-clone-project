@@ -241,6 +241,31 @@ This section outlines the core entities and relationships that define the projec
 
 This schema reflects real-world interactions between hosts, guests, listings, and transactions, ensuring scalability and clarity in data management.
 
+## Feature Breakdown
+
+This section outlines the core features of the Airbnb Clone project, emphasizing their role in delivering a seamless user experience and supporting essential business logic.
+
+### User Management
+Allows users to register, log in, and manage their profiles. Authentication and authorization ensure secure access to personalized features, such as booking history and property listings.
+
+### Property Management
+Enables hosts to list new properties with details like title, location, pricing, and photos. This feature supports CRUD operations and forms the foundation of the platform’s marketplace.
+
+### Booking System
+Facilitates guests in selecting available dates and booking properties. It handles availability checks, date validation, and reservation tracking to ensure smooth scheduling.
+
+### Payment Integration
+Processes secure payments for bookings using integrated payment gateways. It ensures transaction reliability, tracks payment status, and supports refund workflows when necessary.
+
+### Review and Rating System
+Allows guests to leave feedback and rate properties after their stay. This builds trust within the community and helps future guests make informed decisions.
+
+### Search and Filtering
+Provides users with tools to search for properties by location, price, availability, and amenities. This enhances discoverability and improves the overall browsing experience.
+
+### Admin Dashboard
+Gives administrators oversight of users, listings, and transactions. It supports moderation, analytics, and system health monitoring to maintain platform integrity.
+
 
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
