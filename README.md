@@ -163,6 +163,23 @@ The backend serves as the engine of the AirBnB Clone, handling all core logic, d
 * **Business Logic:** Contains the rules and workflows that define the application's functionality. This includes logic for search algorithms (filtering listings by location, date, price, amenities), managing booking availability, handling cancellations, and processing payments through third-party gateways.
 * **Object-Relational Mapping (ORM):** An ORM (like SQLAlchemy for Python or Sequelize/Prisma for Node.js) is often used to abstract database interactions, allowing developers to work with database tables as if they were objects in their programming language, which simplifies queries and data manipulation.
 
+## Team Roles
 
+Understanding each member's role is crucial for effective collaboration. This section outlines the primary responsibilities for each key position within the AirBnB Clone project.
+
+* **Backend Developer:**
+    This individual is responsible for building and maintaining the server-side logic of the application. Their primary tasks include developing the RESTful API, implementing business logic, handling user authentication, and ensuring the server communicates efficiently with the database. They are the architects of the "engine" that powers the application.
+
+* **Database Administrator (DBA):**
+    The DBA is the guardian of the data. Their responsibilities include designing the database schema, ensuring data integrity, optimizing queries for performance, and managing database security. They also handle backups, recovery, and scaling the database as the application grows.
+
+* **Frontend Developer:**
+    This role focuses on the user-facing side of the application (the "client"). They are responsible for building the user interface (UI) and implementing the user experience (UX). They consume the API built by the backend team to display listings, handle user interactions, and manage the application's state in the browser.
+
+* **DevOps Engineer:**
+    The DevOps Engineer bridges the gap between development and operations. Their role is to automate and streamline the application's deployment and infrastructure. This includes setting up continuous integration/continuous deployment (CI/CD) pipelines, managing the cloud hosting environment (e.g., AWS, Azure), and ensuring the application is scalable, reliable, and secure.
+
+* **Project Manager (or Team Lead):**
+    The Project Manager oversees the entire project. They are responsible for defining tasks, managing timelines, coordinating efforts between different roles (e.g., ensuring the frontend and backend teams are aligned), and removing any obstacles. They ensure the project stays on track and meets its goals.
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
