@@ -146,5 +146,23 @@ Each component will be designed for maximum reusability and consistency across t
 - Cross-browser compatibility testing
 
 
+# Backend
+
+# About the Project
+The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
+
+## Technology Stack Breakdown
+Explore the technologies used in a scalable project and their specific contributions to achieving project goals.
+
+### Backend
+The backend serves as the engine of the AirBnB Clone, handling all core logic, data processing, and communication with the database. It exposes a secure and efficient API for the frontend (and potentially mobile apps) to consume.
+
+* **API (Application Programming Interface):** A RESTful API is developed to handle all client requests. It provides clear endpoints for operations like user authentication, managing listings (create, read, update, delete), handling bookings, and submitting reviews.
+* **Database Management:** This component is responsible for persistent data storage. It involves designing a relational (e.g., MySQL, PostgreSQL) or non-relational (e.g., MongoDB) database schema to efficiently store and retrieve information about users, properties, amenities, bookings, and payments.
+* **Authentication & Authorization:** Implements secure user registration and login systems. It manages user sessions or tokens (like JWT) to protect routes and ensure that users can only access and modify data they are authorized to.
+* **Business Logic:** Contains the rules and workflows that define the application's functionality. This includes logic for search algorithms (filtering listings by location, date, price, amenities), managing booking availability, handling cancellations, and processing payments through third-party gateways.
+* **Object-Relational Mapping (ORM):** An ORM (like SQLAlchemy for Python or Sequelize/Prisma for Node.js) is often used to abstract database interactions, allowing developers to work with database tables as if they were objects in their programming language, which simplifies queries and data manipulation.
+
+
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
