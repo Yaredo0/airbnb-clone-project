@@ -181,5 +181,14 @@ Understanding each member's role is crucial for effective collaboration. This se
 
 * **Project Manager (or Team Lead):**
     The Project Manager oversees the entire project. They are responsible for defining tasks, managing timelines, coordinating efforts between different roles (e.g., ensuring the frontend and backend teams are aligned), and removing any obstacles. They ensure the project stays on track and meets its goals.
+    ## Technology Stack
+
+- **Django**: A high-level Python web framework used to build the backend and RESTful APIs efficiently.
+- **PostgreSQL**: A powerful open-source relational database system used to store and manage structured data.
+- **GraphQL**: A query language for APIs that enables clients to request exactly the data they need.
+- **React**: A JavaScript library for building dynamic and responsive user interfaces.
+- **Docker**: A containerization platform used to package the application and its dependencies for consistent deployment.
+- **Nginx**: A high-performance web server used as a reverse proxy and load balancer for serving the application.
+
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
