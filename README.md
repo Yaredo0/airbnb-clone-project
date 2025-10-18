@@ -190,5 +190,57 @@ Understanding each member's role is crucial for effective collaboration. This se
 - **Docker**: A containerization platform used to package the application and its dependencies for consistent deployment.
 - **Nginx**: A high-performance web server used as a reverse proxy and load balancer for serving the application.
 
+## 🗄️ Database Design
+
+This section outlines the core entities and relationships that define the project's relational database structure.
+
+### 📌 Key Entities and Attributes
+
+#### 1. Users
+- `id`: Unique identifier for each user
+- `name`: Full name of the user
+- `email`: Contact email address
+- `password_hash`: Encrypted password for authentication
+- `role`: Defines user type (e.g., host, guest)
+
+#### 2. Properties
+- `id`: Unique identifier for each property
+- `owner_id`: References the user who owns the property
+- `title`: Name or headline of the listing
+- `location`: Address or coordinates
+- `price_per_night`: Cost to book per night
+
+#### 3. Bookings
+- `id`: Unique identifier for each booking
+- `user_id`: References the guest making the booking
+- `property_id`: References the booked property
+- `start_date`: Check-in date
+- `end_date`: Check-out date
+
+#### 4. Reviews
+- `id`: Unique identifier for each review
+- `user_id`: References the reviewer
+- `property_id`: References the reviewed property
+- `rating`: Numerical score (e.g., 1–5)
+- `comment`: Textual feedback
+
+#### 5. Payments
+- `id`: Unique identifier for each payment
+- `booking_id`: References the associated booking
+- `amount`: Total payment amount
+- `payment_method`: Type of payment (e.g., credit card, PayPal)
+- `status`: Payment status (e.g., completed, pending)
+
+### 🔗 Entity Relationships
+
+- A **User** can own multiple **Properties**.
+- A **User** can make multiple **Bookings**.
+- A **Booking** is linked to one **Property** and one **User**.
+- A **Review** is written by a **User** for a **Property**.
+- A **Payment** is tied to a single **Booking**.
+
+This schema reflects real-world interactions between hosts, guests, listings, and transactions, ensuring scalability and clarity in data management.
+
+
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
