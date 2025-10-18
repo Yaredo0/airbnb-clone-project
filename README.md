@@ -146,5 +146,5 @@ Each component will be designed for maximum reusability and consistency across t
 - Cross-browser compatibility testing
 
 
-*Stay tuned for updates as the project evolves!*
-Edited locally and committed by Yared Aysheshim
+*Stay tuned for updates as the project evolves!
+Edited locally and committed by Yared Aysheshim*
