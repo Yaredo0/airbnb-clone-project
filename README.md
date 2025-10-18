@@ -190,11 +190,11 @@ Understanding each member's role is crucial for effective collaboration. This se
 - **Docker**: A containerization platform used to package the application and its dependencies for consistent deployment.
 - **Nginx**: A high-performance web server used as a reverse proxy and load balancer for serving the application.
 
-## 🗄️ Database Design
+##  Database Design
 
 This section outlines the core entities and relationships that define the project's relational database structure.
 
-### 📌 Key Entities and Attributes
+###  Key Entities and Attributes
 
 #### 1. Users
 - `id`: Unique identifier for each user
@@ -231,7 +231,7 @@ This section outlines the core entities and relationships that define the projec
 - `payment_method`: Type of payment (e.g., credit card, PayPal)
 - `status`: Payment status (e.g., completed, pending)
 
-### 🔗 Entity Relationships
+###  Entity Relationships
 
 - A **User** can own multiple **Properties**.
 - A **User** can make multiple **Bookings**.
