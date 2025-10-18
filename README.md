@@ -266,6 +266,44 @@ Provides users with tools to search for properties by location, price, availabil
 ### Admin Dashboard
 Gives administrators oversight of users, listings, and transactions. It supports moderation, analytics, and system health monitoring to maintain platform integrity.
 
+## API Security
+
+This section outlines the key security measures implemented to protect the backend APIs and ensure the integrity, confidentiality, and availability of application data.
+
+### Key Security Measures
+
+- **Authentication**  
+  Ensures that only verified users can access the system by requiring login credentials or tokens. This prevents unauthorized access to user accounts and sensitive operations.
+
+- **Authorization**  
+  Controls what authenticated users are allowed to do based on their roles (e.g., guest, host, admin). This prevents users from accessing or modifying data they do not own or manage.
+
+- **Rate Limiting**  
+  Restricts the number of API requests a user or IP can make within a given timeframe. This helps mitigate abuse, brute-force attacks, and denial-of-service (DoS) threats.
+
+- **Input Validation and Sanitization**  
+  All incoming data is validated and sanitized to prevent injection attacks such as SQL injection or cross-site scripting (XSS). This ensures that only safe and expected data is processed.
+
+- **HTTPS Enforcement**  
+  All API traffic is encrypted using HTTPS to protect data in transit from interception or tampering.
+
+- **Secure Payment Handling**  
+  Payment data is processed through trusted third-party gateways, ensuring PCI compliance and reducing the risk of financial data breaches.
+
+### Importance of API Security
+
+- **Protecting User Data**  
+  Personal information such as emails, passwords, and booking history must be safeguarded to maintain user trust and comply with data protection regulations.
+
+- **Securing Transactions**  
+  Payment and booking operations involve sensitive financial data that must be securely handled to prevent fraud and unauthorized charges.
+
+- **Maintaining Platform Integrity**  
+  Preventing unauthorized access and abuse ensures that the platform remains reliable, fair, and functional for all users.
+
+- **Compliance and Trust**  
+  Implementing robust security practices helps meet legal requirements and builds confidence among users and stakeholders.
+
 
 *Stay tuned for updates as the project evolves!
 Edited locally and committed by Yared Aysheshim*
