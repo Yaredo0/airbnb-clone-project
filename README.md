@@ -115,6 +115,36 @@ A well-designed booking system reduces friction in the user journey, increases c
 - **Key Responsibilities**: Facilitates agile processes, removes blockers, organizes meetings (sprint planning, retrospectives), and ensures team adherence to agile principles
 - **Contribution**: Promotes efficient team workflow and continuous improvement through agile methodology implementation
 
+## UI Component Patterns
+
+### Planned Components
+
+#### Navbar
+- **Logo**: Brand identity and navigation to homepage
+- **Search bar**: Primary property search functionality
+- **User navigation**: User profile, bookings, and account management
+- **Responsive menu**: Mobile-friendly hamburger menu for smaller screens
+
+#### Property Card
+- **Property image**: High-quality photos with hover effects
+- **Basic details**: Price per night, location, average rating, and property type
+- **Favorite button**: Heart icon for saving preferred properties
+- **Responsive layout**: Adapts to different screen sizes and orientations
+
+#### Footer
+- **Site links**: Quick access to important pages (About, Help, Careers)
+- **Company information**: Brand details and mission statement
+- **Social media links**: Connection to social platforms
+- **Copyright information**: Legal notices and rights
+
+### Component Design Principles
+Each component will be designed for maximum reusability and consistency across the application. We'll implement a modular approach with:
+- Consistent styling using the established design system
+- Props-based customization for different use cases
+- Accessibility compliance (ARIA labels, keyboard navigation)
+- Performance optimization (lazy loading, efficient re-renders)
+- Cross-browser compatibility testing
+
 
 *Stay tuned for updates as the project evolves!*
 Edited locally and committed by Yared Aysheshim
