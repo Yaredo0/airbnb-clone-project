@@ -61,6 +61,8 @@ The project covers the entire development process — from frontend design and b
 - **Primary Font**: Circular, Medium (500), 16px
 - **Headings**: Circular, Bold (700), 24px-32px
 - **Secondary Text**: Circular, Book (400), 14px
+### Importance of Identifying Design Properties
+Identifying and documenting design properties from mockups ensures visual consistency across the entire application. It establishes a unified design system that helps maintain brand identity, improves developer handoff efficiency, and provides a reference point for future design iterations. Consistent spacing, typography, and color usage create a cohesive user experience that feels professional and trustworthy.
 
 ### Importance of User-Friendly Design
 A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
